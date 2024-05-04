@@ -32,11 +32,11 @@
         });
         
         // Add event listener to the canvas
-        document.getElementById("rive-cat-button").addEventListener("click", function() {
+        document.getElementById("rive-cat-button").addEventListener("mousedown", function() {
             // Change background color on click
             document.querySelector('.cat-container').style.backgroundColor = '#9E86FF';
             
-        // Revert background color after 1.2 seconds
+        // Revert background color after 1.0 seconds
         setTimeout(function() {
                 document.querySelector('.cat-container').style.backgroundColor = '#f4ff4d';
             }, 1000);
