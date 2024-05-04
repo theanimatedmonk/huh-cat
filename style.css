@@ -1,0 +1,38 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh; /* This ensures that the body takes up the full height of the viewport */
+    margin: 36px 0px 0px 0px; /* Remove default margin */
+  }
+
+
+#rive-cat-button {
+    cursor: pointer; /* Change cursor to hand pointer */
+}
+
+.cat-container{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    background: #f4ff4d;
+    justify-content: center;
+    box-shadow: 8px 8px 0px 2px #000000;
+    border: 1.5px solid #000000;
+    border-radius: 1px;
+    transition: background-color 100ms; /* Add transition for smooth color change */
+}
+
+.cat-container h3 {
+    text-align: center;
+    line-height: 1.5x;
+    margin: 0px;
+    font-weight: 600;
+    color: #333;
+}
